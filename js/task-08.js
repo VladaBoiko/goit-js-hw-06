@@ -16,8 +16,6 @@ function acceptSubmit(event) {
   }
   resultValues.email = inputLogin.value;
   resultValues.password = inputPassword.value;
-  console.log(
-    `mail: ${resultValues.email}   password: ${resultValues.password}`
-  );
+  console.log(resultValues);
   event.currentTarget.reset();
 }
